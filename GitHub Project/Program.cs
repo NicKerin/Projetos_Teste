@@ -11,6 +11,9 @@ class Program
         double result = num + num2;
         Console.WriteLine($"A soma dos números é {result}.");
 
+
+        if (num2 > num) Console.WriteLine($"O numero {num2} é maior");
+
         Console.ReadKey();
     }
 }
